@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="loginPage.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
+    <script>
+        function action() {
+            alert("I am an alert box!");
+        }
+    </script>
+</head>
+<header>
+    <div role="navigation">
+        <a href="../index.html">Back to home</a>
+    </div>
+
+</header>
+
+<body>
+    <div role="list">
+        <button onclick="action()">Alert button</button>
+        <div onclick="action()"> alert button (div)</div>
+        <div onclick="action()" tabindex="0" onkeydown="if (event.keyCode == 13) action()">
+            Clickable div
+        </div>
+</body>
+
+</html>

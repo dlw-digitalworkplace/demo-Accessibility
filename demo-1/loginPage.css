@@ -1,0 +1,44 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.login {
+    display: flex;
+    height: 90%;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.login-greeting {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.login-formFields {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.login-formFields input {
+    width: 100%;
+}
+
+.login-buttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.login-buttons a {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: lightgray;
+    padding: 10px;
+}
